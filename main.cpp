@@ -11,8 +11,14 @@ int main()
     FibonacciTree F=FibonacciTree();
     long double n=40;
     cout<<"fibonacci of "<<n<<" is : "<<F.fibonacci_of(n)<<endl;
-   // here is the tree in which we stored redundant calculated values
-   // cout<<F.arbre;
+   
+     
+     
+     
+     cout<<"this is a  test of normal fibonnacci suite, just for comparison with mine \n";
+    cout.precision(0); cout << fixed << endl;
+    long double n=40;
+    cout<<"fibonacci of "<<n<<" is : "<<normal_fibonacci(n)<<endl;
 
 return 0;
 }
